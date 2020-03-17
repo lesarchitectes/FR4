@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script-metrique1.js"></script>
+</head>
+<body>
+    <div id="page">
+        <div id="entete">
+            <p><a class="bouton" href="index.html">Revenir au sommaire</a></p>
+            <hr>
+            <p>Exercice de métrique</p>
+            <h1><span>À un ami</span></h1>
+        </div>
+        <div class="cadre">
+            <p>
+                (…)<br>
+                Salut ! merci ! les fortunes<br>
+                Sont fragiles, et nos temps,<br>
+                Comme l’algue sous les dunes,<br>
+                Sont dans l’abîme, et flottants.<br>
+            </p><p>
+                Nos âmes sont des nuées<br>
+                Qu’un vent pousse, âpre ou béni,<br>
+                Et qui volent, dénouées,<br>
+                Du côté de l’infini.<br>(…)
+            </p>
+            <p class="reference">(Victor Hugo)</p>
+        </div>
+        <p>
+            Ces strophes sont des
+            <select class="reponse" data-solution="4">
+                <option value="2">distiques</option>
+                <option value="4">quatrains</option>
+                <option value="5">quintils</option>
+                <option value="6">sizains</option>
+                <option value="3">tercets</option>
+            </select>.
+        </p>
+        <p class="commentaire">
+            Chaque strophe compte quatre vers&nbsp;: ce sont des quatrains.
+        </p>
+        
+        <p>
+            Chaque vers compte
+            <select class="reponse" data-solution="10">
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+            </select> syllabes.
+        </p>
+        <p class="commentaire">
+            Les vers ont 7 syllabes (7 voyelles prononcées).<br>
+            <em>Salut ! merci ! les fortunes</em>&emsp;
+            <span class="phonetique">[saly mɛʁsi lɛ fɔʁtyn(ə)]</span><br>
+            <em>Sont fragiles, et nos temps</em>&emsp;
+            <span class="phonetique">[sɔ&#x0303; fʁaʒilə_z_e nɔ ta&#x0303;]</span> (avec la liaison <em>fragiles-z-et</em>)
+        </p>
+        
+        <p>
+            Dans les deux strophes, les rimes sont 
+            <select class="reponse" data-solution="a">
+                <option value="p">plates</option>
+                <option value="a">alternées / croisées</option>
+                <option value="e">embrassées</option>
+            </select>.
+        </p>
+        <p class="commentaire">
+            Les rimes sont alternées ou croisées (ABAB).
+        </p>
+        
+        <p>
+            La seule rime pauvre de ces deux strophes est
+            <select class="reponse" data-solution="3">
+                <option value="1">fortunes / dunes</option>
+                <option value="2">temps / flottants</option>
+                <option value="3">nuées / dénouées</option>
+                <option value="4">béni / infini</option>
+            </select>.
+        </p>
+        <p class="commentaire">
+            La seule rime pauvre est <em>nuées / dénouées</em> <span class="phonetique">[nye(ə)] / [denue(ə)]</span>,
+            qui ne possède qu’un son commun&nbsp;: <span class="phonetique">[e]</span>.
+        </p>
+        
+        <hr>
+        <p><button id="corriger">Corriger</button></p>
+    </div>
+</body>
+</html>
